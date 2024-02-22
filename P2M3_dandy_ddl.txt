@@ -1,0 +1,38 @@
+Link dataset: https://www.kaggle.com/datasets/nextmillionaire/car-accident-dataset/data
+
+Query to create table:
+
+CREATE TABLE table_m3(
+    "Accident_Index" VARCHAR(255),
+    "Accident Date" DATE,
+    "Day_of_Week" VARCHAR(255),
+    "Junction_Control" VARCHAR(255),
+    "Junction_Detail" VARCHAR(255),
+    "Accident_Severity" VARCHAR(255),
+    "Latitude" DOUBLE PRECISION,
+    "Light_Conditions" VARCHAR(255),
+    "Local_Authority_(District)" VARCHAR(255),
+    "Carriageway_Hazards" VARCHAR(255),
+    "Longitude" DOUBLE PRECISION,
+    "Number_of_Casualties" INTEGER,
+    "Number_of_Vehicles" INTEGER,
+    "Police_Force" VARCHAR(255),
+    "Road_Surface_Conditions" VARCHAR(255),
+    "Road_Type" VARCHAR(255),
+    "Speed_limit" INTEGER,
+    "Time" TIME,
+    "Urban_or_Rural_Area" VARCHAR(255),
+    "Weather_Conditions" VARCHAR(255),
+    "Vehicle_Type" VARCHAR(255)
+);
+
+
+Syntax DML :
+COPY table_m3(Accident_Index, Accident Date, Day_of_Weekk, Junction_Control
+       Junction_Detail, Accident_Severity, Latitude, Light_Conditions, Local_Authority_(District),
+       Carriageway_Hazards, Longitude, Number_of_Casualties, Number_of_Vehicles, Police_Force, Road_Surface_Conditions,
+       Road_Type, Speed_limit, Time, Urban_or_Rural_Area,
+       Weather_Conditions, Vehicle_Type)
+FROM "C:\Users\ASUS\Documents\HACKTIV8\GIT BASH\P2-M3_Mohdandy\P2M3_dandy_data_cleaned.csv"
+DELIMITER ','
+CSV HEADER;

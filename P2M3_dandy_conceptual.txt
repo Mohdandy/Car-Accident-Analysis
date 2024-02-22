@@ -1,0 +1,60 @@
+---Conceptual Problems---
+
+1. NoSQL is abbreviation of Not Only SQL,class of database management systems. 
+    It was created to overcome the drawbacks of conventional relational models. 
+    When it comes to storing and managing data with different structures specialy unstructured and semi structure data, 
+    NoSQL more flexible than relational databases, which rely on a SQL query language and a fixed schema.
+
+2. No SQL best to use when:
+- We need more framework flexibility, allowing us to easily adapt to any form of data structure without having to rely on 
+  pre-defined frameworks. This is useful if we have uncertain data or fluctuate data.
+
+- We have real-time analytics and reporting, because NoSQL databases can store and retrieve massive amounts of data quickly.
+  This is especially usefull for document-oriented databases.
+
+  RDMS best to use when:
+- We have structured data and good relationships between entities, transactions and complex queries involving multiple tables
+  are handled efficiently.
+
+- We have application that needs complex queries, aggregations, and joins. 
+  Effective and complex data retrieval is made possible by its SQL.
+
+3. There is 2 popular NoSQL platform that i know, which is:
+- Apache Cassandra, the advantage of this platform is distributed and decentralized database.
+  It is designed to handle large workloads by leveraging a large number of servers without a single point of failure.
+  Cassandra is suitable for applications requiring the handling of large datasets and horizontal scalability.
+
+- MongoDB, this platform advantage is document-oriented database, where data is stored in BSON (Binary JSON) document format. 
+  Developers can store complex and structured data in flexible JSON-like documents. 
+  Also this platform have horizontally scalable design, can handle large workloads by adding more servers to the MongoDB cluster.
+  MongoDB is suitable for applications requiring schema flexibility and expressive queries.
+
+4. Apache Airflow is used to plan and control processes or data pipelines. 
+   The pipeline management can organize, coordinating, scheduling, and administration of complicated data from several source.
+   Airflow have workflows which represented as Directed Acyclic Graphs(DAGs),where a single job is represented by each node 
+   or point in the DAG.
+
+5. An open-source Python library called Great Expectations was created to make a range of data-related operations easier to manage
+   and automate, including data testing, documentation, and validation.
+   It is especially helpful for machine learning, data science, and data engineering projects.
+
+6. Batch processing refers to the method of processing and analyzing a large volume of data at once, typically in a scheduled, 
+   non-interactive manner. In batch processing, data is collected, processed, and then the results are generated after the entire
+   set of data has been processed. 
+   This is in contrast to real-time or online processing, where data is processed immediately as it arrives.
+   Use Cases:
+   - Daily Reports Generation:
+     In business analytics, organizations might generate daily reports summarizing key metrics and performance 
+     indicators based on the data collected throughout the day.
+
+   - Bulk Data Updates:
+     Updating a large database with new information in a single batch process, rather than updating records individually.
+
+   - Updates and Maintenance:
+     Software updates, database maintenance tasks, and other routine system operations are often performed in batch to minimize 
+     disruptions to the normal operation of a system.
+
+    Tools Example:
+   - Apache Hadoop
+   - Apache Airflow
+   - Apache Spark
