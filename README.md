@@ -15,4 +15,4 @@ Tools :
 Programming Language: Python Libraries: Python, Pandas, PostgreSQL, Docker, ElasticSearch, Kibana
 
 Results :
-The analysis resulted in some insights for road improvement to minimize the car accident severity and frequency
+The analysis resulted in some insights for road improvement to minimize the severity and frequency of car accident 
