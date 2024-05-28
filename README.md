@@ -20,3 +20,12 @@ Programming Language: Python Libraries: Python, Pandas, PostgreSQL, Docker, Elas
 
 ## Results :  ##
 The analysis resulted in some insights for road improvement to minimize the severity and frequency of car accident 
+
+### The repository contains the following files :###   
+- Airflow_DAG.py contain python file that define workflows consisting of various tasks that are executed according to their dependencies.
+- Conceptual_Problem.txt contain questions and answers related to theory for this project
+- Dataset_Great_Expectation.ipynb contain great expection for the dataset
+- P2M3_dandy_data_raw.csv contain raw data
+- P2M3_dandy_data_cleaned.csv contain cleaned data
+- Query_ddl.txt contain SQL query to create table
+
