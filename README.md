@@ -1,7 +1,7 @@
-# Car-Accident-Analysis
+# Car-Accident-Analysis #
 Automation of Car Accident dataset analysis with Airflow, Elastic Search and Kibana
 
-Background :  
+## Background :  ##
 Car Accident are common in United Kingdom,the financial cost associated with car accidents is also huge. The causes of accidents can be attributed to several factors, knowing how these factors influecing accidents is a key to predicting and preventing potential accidents in the future
 
 Objectives :
